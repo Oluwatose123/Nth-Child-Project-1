@@ -17,27 +17,30 @@
             margin-top: 25px;
             display: flex;
             gap: 10px;
+            padding: 0 35px 0 35px;
         }
         h2{
             text-align: center;
             display: block;
             padding-top: 130px;
+            padding: 160px 0 40px 0;
         }
         .product{
             width: 130px;
             height: 250px;
             display: flex;
-            margin-bottom: 15px;
+            margin-bottom: 55px;
             box-shadow: 0.1px 1px;
             border-radius: 15px;
             display: block;
 
             flex: 1 1 300px;
             border: 1px solid;
+            text-align: center;
             border-radius: 5px;
         }
         .product:hover{
-            transform: scale(1.1);
+            transform: translateY(-10px);
         }
         img{
             width: 120px;
@@ -60,9 +63,9 @@
         footer{
             background-color: burlywood;
             text-align: center;
-            padding: 15px;
+            padding: 40px;
             width: 100%;
-            position: fixed;
+            /* position: fixed; */
         }
         span{
             display: flex;
